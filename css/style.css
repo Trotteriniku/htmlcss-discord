@@ -23,7 +23,7 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 5pxS;
+    padding: 0 5px;
 }
 
 .d-flex{
@@ -187,7 +187,13 @@ main section{
     
 }
 
-.stars h2{
+.stars h3{
     padding-bottom: 50px;
 }
 /*MAIN*/
+
+/*FOOTER*/
+footer{
+    background-color: #23272A;
+}
+/*FOOTER*/
