@@ -50,6 +50,10 @@ a{
 h1{
     padding-bottom: 20px;
 }
+
+.centering{
+    text-align: center;
+}
 /*HEADER*/
 header{
     background-color: var(--color-header-blue);
@@ -74,6 +78,18 @@ header{
     line-height: 2em;
 }
 /*HEADER*/
+.fake-button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.purple-button{
+    background-color: var(--color-acessory);
+    color: var(--color-secondary);
+}
+
+
 button{
     margin-top: 5px;
     padding: 10px;
@@ -99,6 +115,17 @@ button{
     box-shadow: 3px 1px 25px rgba(0, 0, 0, 0.13);
 }
 
+.ondina{
+    opacity: 0.04;
+}
+
+.ondina img{
+    width: 100%;
+    display: block;
+}
+ .rotate{
+    transform: rotate(180deg);  
+ }
 
 /*MAIN*/
 
@@ -119,14 +146,12 @@ main section{
 }
 
 
-.section-flex div{
-    flex-direction: column;
-}
+
 
 .section-content{
     padding-top: 35px;
     text-align: left;
-    max-width: 350px;
+    width: 40%;
 }
 
 .section-content h2{
@@ -144,11 +169,25 @@ main section{
  
  }
 
-.section-content-inv{
-    padding-top: 35px;
-    text-align: left;
-    max-width: 350px;
+.centering h2, p{
+    padding:13px;
 }
 
+.centering p{
+    max-width: 70%;
+    margin: 0 auto;
+}
 
+.stars{
+    background-image: url("../img/stars.svg");
+    background-size: cover;
+    background-position:top;
+    background-size: 390px;
+    background-repeat: no-repeat;
+    
+}
+
+.stars h2{
+    padding-bottom: 50px;
+}
 /*MAIN*/
