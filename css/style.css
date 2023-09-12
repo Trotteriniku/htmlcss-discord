@@ -195,5 +195,38 @@ main section{
 /*FOOTER*/
 footer{
     background-color: #23272A;
+    padding: 50px;
+    color: var(--color-secondary);
+}
+
+footer h2{
+    color: var(--color-acessory);
+}
+footer h4{
+    color: var(--color-acessory);
+}
+.footer-flex{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+
+.language{
+    display: flex;
+    border: none;
+}
+
+.language img{
+    width: 30px;
+}
+
+.border{
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--color-acessory);
+}
+
+.padding-bottom{
+    padding-bottom: 10px;
 }
 /*FOOTER*/
