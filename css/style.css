@@ -39,7 +39,7 @@ ul{
 }
 
 nav{
-    padding: 15px;
+    padding-top: 15px;
 }
 a{
     color: var(--color-secondary);
@@ -53,7 +53,7 @@ h1{
 /*HEADER*/
 header{
     background-color: var(--color-header-blue);
-    
+
 }
 
 #hero{
@@ -62,7 +62,6 @@ header{
     background-repeat: no-repeat;
 }
 #hero .container{
-    min-height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,12 +71,14 @@ header{
     max-width: 800px;
     color: var(--color-secondary);
     text-align: center;
+    line-height: 2em;
 }
 /*HEADER*/
 button{
     margin-top: 5px;
     padding: 10px;
     border-radius: 30px;
+    border: none;
 }
 
 .wh-button{
@@ -85,14 +86,69 @@ button{
     color: black;
 }
 
+.wh-button:hover{
+    box-shadow: 3px 1px 25px rgba(0, 0, 0, 0.13);
+    color: var(--color-header-blue);
+}
 .bl-button{
     background-color: black;
     color: var(--color-secondary);
 }
 
+.bl-button:hover{
+    box-shadow: 3px 1px 25px rgba(0, 0, 0, 0.13);
+}
+
 
 /*MAIN*/
+
+.even{
+    background-color: var(--color-bg-grey);
+}
 main section{
     padding: 60px 0;
 }
+
+.section-flex{
+   display: flex;
+   flex-flow: row ;
+   justify-content: center;
+   align-items: flex-start;
+
+
+}
+
+
+.section-flex div{
+    flex-direction: column;
+}
+
+.section-content{
+    padding-top: 35px;
+    text-align: left;
+    max-width: 350px;
+}
+
+.section-content h2{
+    font-size: 43px;
+    margin-bottom: 25px;
+
+}
+
+.section-inv-flex{
+    display: flex;
+    flex-direction: row-reverse ;
+    justify-content: center;
+    align-items: flex-start;
+ 
+ 
+ }
+
+.section-content-inv{
+    padding-top: 35px;
+    text-align: left;
+    max-width: 350px;
+}
+
+
 /*MAIN*/
